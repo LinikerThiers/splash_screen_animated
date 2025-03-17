@@ -1,4 +1,4 @@
-import 'package:animatedsplashscreen/pages/home_page.dart';
+import 'package:animatedsplashscreen/pages/splash_screen_page.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SplashScreenPage(),
     );
   }
 }
